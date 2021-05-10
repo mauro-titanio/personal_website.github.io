@@ -354,6 +354,7 @@ footer {
 
 .section-title {
   margin-bottom: 3em;
+  margin-top: 2em;
   opacity: 0;
   -webkit-transform: translateX(-5em);
   -ms-transform: translateX(-5em);
