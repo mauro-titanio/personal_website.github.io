@@ -44,12 +44,12 @@ section {
   min-height: 90vh;
 }
 
-@media (max-width:768px) {
+@media (max-width:688px) {
   section{
     min-height: 50vh;
   }
   #contact{
-    min-height: 90vh;
+    min-height: 20vh;
   }
 
 }
