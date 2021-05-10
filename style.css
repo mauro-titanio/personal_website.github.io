@@ -457,7 +457,7 @@ overflow: scroll;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:688px) {
   .centered {
     max-width: 90%;
   }
