@@ -114,7 +114,13 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
 }
+.split::-webkit-scrollbar {
+    display: none;
+}
+
 
 @media (min-width: 40em) {
   .split {
@@ -379,6 +385,12 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.contact::-webkit-scrollbar {
+    display: none;
 }
 
 .social {
